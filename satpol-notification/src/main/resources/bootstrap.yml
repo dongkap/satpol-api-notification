@@ -21,6 +21,23 @@ spring:
       enabled: false
       discovery:
         enabled: false
+  mail:
+    username: ${MAIL_USERNAME}
+    host: ${MAIL_HOST}
+    port: ${MAIL_PORT}
+    password: ${MAIL_PASSWORD}
+    test-connection: false
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          timeout: 30000
+        debug: false
+mail:
+  personal: ${MAIL_PERSONAL}
+
 feign:
   compression:
     request:
