@@ -66,22 +66,43 @@
           <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
               <td class="textcontent" style="font-size: 18px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-                <b>Hi ${fullname},</b>
+                <b>Hai ${fullname},</b>
               </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-                <b>We received requested a password reset for your account.</b>
+                <b>Kami melihat anda baru saja terdaftar di aplikasi SMART Tanggap.</b>
               </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-				Please enter the code of password change request into the Dongkap application : <b>${verificationCode}</b>
+				Untuk mengaktifkan akun Anda, klik tombol di bawah ini :
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px;" align="center">
+			    <table width="150" border="0" cellspacing="0" cellpadding="0"> 
+                  <tr> 
+                    <td align="center" height="50" style="font-size:18px; color:#ffffff;" bgcolor="#21a7ff">
+                      <a href="${urlActivateAccount}" style="font-size:18px; color:#ffffff; text-decoration:none;">Aktifkan</a>
+                    </td> 
+                  </tr>
+                </table>
               </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-                If you don't wish to reset your password, disregard this email and no action will be taken.
+				atau silakan ikuti tautan dibawah ini :
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
+				<a href="${urlActivateAccount}">${urlActivateAccount}</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
+                Jika Anda tidak pernah mendaftar di aplikasi SMART Tanggap, abaikan email ini dan tidak ada tindakan yang akan diambil.
               </td>
             </tr>
           </table>

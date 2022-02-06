@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dongkap</title>
+    <title>SMART Tanggap</title>
   </head>
 
   <body yahoo="" style="background: #f2f2f2; color: #222222; font-family: sans-serif; margin: 0; min-width: 100% !important; padding: 0" bgcolor="#e8e8e8">
@@ -67,14 +67,37 @@
             <tr>
               <td class="textcontent" style="font-size: 18px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
                 <b>Hai ${fullname},</b>
+              </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
                 <b>Kami menerima permintaan pengaturan ulang kata sandi untuk akun Anda.</b>
+              </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-				Silakan ikuti tautan untuk mengatur ulang kata sandi : <br><a href="${urlForgotPassword}">${urlForgotPassword}</a>
+				Silakan klik tombol dibawah ini untuk mengatur ulang kata sandi :
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px;" align="center">
+			    <table width="150" border="0" cellspacing="0" cellpadding="0"> 
+                  <tr> 
+                    <td align="center" height="50" style="font-size:18px; color:#ffffff;" bgcolor="#21a7ff">
+                      <a href="${urlForgotPassword}" style="font-size:18px; color:#ffffff; text-decoration:none;">Atur Ulang Sandi</a>
+                    </td> 
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
+				atau silakan ikuti tautan dibawah ini :
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
+				<a href="${urlForgotPassword}">${urlForgotPassword}</a>
               </td>
             </tr>
             <tr>

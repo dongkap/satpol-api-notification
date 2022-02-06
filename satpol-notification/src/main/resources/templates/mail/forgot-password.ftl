@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dongkap</title>
+    <title>SMART Tanggap</title>
   </head>
 
   <body yahoo="" style="background: #f2f2f2; color: #222222; font-family: sans-serif; margin: 0; min-width: 100% !important; padding: 0" bgcolor="#e8e8e8">
@@ -67,14 +67,37 @@
             <tr>
               <td class="textcontent" style="font-size: 18px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
                 <b>Hi ${fullname},</b>
+              </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
                 <b>We received requested a password reset for your account.</b>
+              </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-				Please follow the link to reset password : <br><a href="${urlForgotPassword}">${urlForgotPassword}</a>
+				Please click the button below to reset password :
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px;" align="center">
+			    <table width="150" border="0" cellspacing="0" cellpadding="0"> 
+                  <tr> 
+                    <td align="center" height="50" style="font-size:18px; color:#ffffff;" bgcolor="#21a7ff">
+                      <a href="${urlForgotPassword}" style="font-size:18px; color:#ffffff; text-decoration:none;">Reset Password</a>
+                    </td> 
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
+				or please follow the link :
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
+				<a href="${urlForgotPassword}">${urlForgotPassword}</a>
               </td>
             </tr>
             <tr>

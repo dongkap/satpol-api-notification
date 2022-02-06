@@ -71,17 +71,38 @@
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-                <b>We received requested a password reset for your account.</b>
+                <b>We see you have just been registered in the SMART Tanggap app.</b>
               </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-				Please enter the code of password change request into the Dongkap application : <b>${verificationCode}</b>
+				To activate your account, click the button below :
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px;" align="center">
+			    <table width="150" border="0" cellspacing="0" cellpadding="0"> 
+                  <tr> 
+                    <td align="center" height="50" style="font-size:18px; color:#ffffff;" bgcolor="#21a7ff">
+                      <a href="${urlActivateAccount}" style="font-size:18px; color:#ffffff; text-decoration:none;">Activate</a>
+                    </td> 
+                  </tr>
+                </table>
               </td>
             </tr>
             <tr>
               <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
-                If you don't wish to reset your password, disregard this email and no action will be taken.
+				or please follow the link :
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
+				<a href="${urlActivateAccount}">${urlActivateAccount}</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="textcontent" style="font-size: 16px; line-height: 1.5; padding: 10px 0 10px; text-align: left" align="left">
+                If you never signed up for the SMART Tanggap app, ignore this email and no action will be taken.
               </td>
             </tr>
           </table>
